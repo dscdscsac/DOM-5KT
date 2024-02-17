@@ -1,0 +1,108 @@
+.div{
+    display: inline;
+}
+input{
+    width: 195px;
+}
+.Track input[type=range]{
+    background-color: rgb(12, 224, 26);
+    height: 8px;
+}
+.Divisor input{
+
+}
+.Thumb input{
+
+}
+.Tick input{
+
+}
+/* #tk1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 5px;
+    bottom: 0px;
+    pointer-events: none;
+    width: 205px;
+    font-size: 15px;
+    left: 5px;
+    background: greenyellow;
+} */
+#mr1 {
+    display: flex;
+    justify-content: space-between;
+    writing-mode: horizontal-tb;
+    width: 200px;
+    margin-left: 6px;
+}
+#ou1{
+    position: absolute;
+    left: -20px;
+    top: -40px;
+    padding: 5px 10px;
+    background: green;
+    color: gray;
+    border-radius: 25px 25px 0 25px;
+    font-weight: bold;
+    width: 15px;
+    height: 15px;
+}
+#in1{
+    position: relative;
+    width: 200px;
+    height: 5px;
+    background: green;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 5px;
+}
+#in1::-webkit-slider-thumb{
+
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: green;
+    box-shadow: 0 0 2px #222;
+}
+.Track input[type=range]{
+
+}
+#mr2 option{
+    position: relative;
+    background: red;
+    top: 15px;
+}
+#mr2 option:first-of-type {
+    visibility: hidden;
+  }
+#mr2 input[type="range"]:focus {
+    outline: none;
+  }
+/* #mr4{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    writing-mode: horizontal-tb;
+    width: 200px;
+    overflow: hidden;
+}
+
+.Tick input[type=range]::-webkit-slider-thumb{
+
+} */
+
+.Thumb input::-webkit-slider-thumb{
+    width: 10px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 6px solid  #222;
+    -webkit-appearance: none;
+}
+.Thumb input[type=range]{
+    width: 200px;
+    background: #f00;
+    -webkit-appearance: none;
+}
+#in3{}
